@@ -10,9 +10,9 @@ SESSION_ID: process.env.SESSION_ID || "",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "LUCKY-XD",
+BOT_NAME: process.env.BOT_NAME || "Panda bot",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
@@ -27,7 +27,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
@@ -56,10 +56,10 @@ LINK_WHITELIST: "youtube.com,github.com",
 // add alive msg here 
 
 
-        STICKER_NAME: process.env.STICKER_NAME || "LUCKY-XD",
+        STICKER_NAME: process.env.STICKER_NAME || "Panda😗💓",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -68,19 +68,19 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "94782543893",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "",
+OWNER_NAME: process.env.OWNER_NAME || "Hashan",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By *",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
@@ -88,7 +88,7 @@ OWNER_NAME: process.env.OWNER_NAME || "",
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 
-        AUTO_STICKER: process.env.AUTO_STICKER || "false",
+        AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -106,7 +106,7 @@ OWNER_NAME: process.env.OWNER_NAME || "",
    READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "256789966218",
+     DEV: process.env.DEV || "94782543893",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "true",
